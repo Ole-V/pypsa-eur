@@ -37,9 +37,9 @@ foresight: overnight
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#scenario
 scenario:
   clusters:
-  - 9
+  - 10
   opts:
-  - "6h"
+  - ""
   sector_opts:
   - "6h"
   planning_horizons:

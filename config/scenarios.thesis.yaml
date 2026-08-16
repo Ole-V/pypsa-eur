@@ -11,27 +11,30 @@
 #   electricity:
 #       renewable_carriers: [wind, solar] # override the list of renewable carriers
 
-normal:
-  electricity:
-    renewable_carriers:
-    - solar
-    - onwind
-    - offwind-ac
-    - offwind-dc
-    - hydro
+# normal:
+#   electricity:
+#     renewable_carriers:
+#     - solar
+#     - onwind
+#     - offwind-ac
+#     - offwind-dc
+#     - hydro
 
-no-offwind:
-  electricity:
-    renewable_carriers:
-    - solar
-    - onwind
-    - hydro
+# no-offwind:
+#   electricity:
+#     renewable_carriers:
+#     - solar
+#     - onwind
+#     - hydro
 
 #Custom Scenarios#
 
 test: 
   scenario:
-    clusters: [9]
+    clusters: [10]
+  snapshots:
+    start: "2013-01-01"
+    end: "2013-07-01"
 
   sector:
     H2_retrofit: true
